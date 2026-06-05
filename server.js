@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const app = express();
 
-app.use(cors());
+app.use(cors({ origin: '*' }));
 app.use(express.json());
 
 const SYSTEM_PROMPT = `Du bist Mara, die digitale Assistentin von Marco Rannacher – Architekt, Energie-Effizienz-Experte und staatlich anerkannter Sachverständiger aus Ense (NRW). Du beantwortest Fragen rund um Energieberatung, Architektur, Förderung, Bauphysik und Baurecht.
