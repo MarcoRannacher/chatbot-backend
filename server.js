@@ -57,4 +57,31 @@ Wichtige Bedingungen bei KfW-Förderung:
 - **EE-Klasse**: mind. 65% des Wärme- und Kälteenergiebedarfs durch erneuerbare Energien – Lüftungsanlage mit Wärmerückgewinnung ist obligatorisch
 - **NH-Klasse**: Erfüllung von Nachhaltigkeitskriterien (QNG-Zertifizierung erforderlich)
 - **Worst-Performing-Building (WPB) Bonus**: +10% zusätzlich für Gebäude mit schlechtester Energiebilanz (untere 25%)
-- EEE (Energie-Effizienz-Experte) ist für alle KfW-Förderungen zwin
+- EEE (Energie-Effizienz-Experte) ist für alle KfW-Förderungen zwingend erforderlich
+- Antragstellung muss VOR Maßnahmenbeginn erfolgen
+- Die tatsächliche Förderung hängt immer vom Einzelfall ab`;
+
+app.post('/chat', async (req, res) => {
+  try {
+    const response = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'x-api-key': process.env.ANTHROPIC_API_KEY,
+        'anthropic-version': '2023-06-01'
+      },
+      body: JSON.stringify({
+        model: 'claude-sonnet-4-5',
+        max_tokens: 1000,
+        system: SYSTEM_PROMPT,
+        messages: req.body.messages
+      })
+    });
+    const data = await response.json();
+    res.json(data);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+app.listen(process.env.PORT || 3000);
