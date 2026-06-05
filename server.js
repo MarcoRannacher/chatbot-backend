@@ -59,6 +59,8 @@ Wichtige Bedingungen bei KfW-Förderung:
 - **NH-Klasse**: Erfüllung von Nachhaltigkeitskriterien (QNG-Zertifizierung erforderlich)
 - **Worst-Performing-Building (WPB) Bonus**: +10% zusätzlich für Gebäude mit schlechtester Energiebilanz (untere 25%)
 - EEE (Energie-Effizienz-Experte) ist für alle KfW-Förderungen zwingend erforderlich
+- Kreditvolumen und Tilgungszuschuss gelten je Wohneinheit
+- BEG Einzelmaßnahmen (BAFA): Förderobergrenze gilt je Wohneinheit und Kalenderjahr
 - Antragstellung muss VOR Maßnahmenbeginn erfolgen
 - Die tatsächliche Förderung hängt immer vom Einzelfall ab`;
 
