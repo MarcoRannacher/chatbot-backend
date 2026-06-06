@@ -63,7 +63,22 @@ Wichtige Bedingungen bei KfW-Förderung:
 - Antragstellung muss VOR Maßnahmenbeginn erfolgen
 - Kreditvolumen und Tilgungszuschuss gelten je Wohneinheit
 - BEG Einzelmaßnahmen (BAFA): Förderobergrenze gilt je Wohneinheit und Kalenderjahr
-- Die tatsächliche Förderung hängt immer vom Einzelfall ab`;
+- Die tatsächliche Förderung hängt immer vom Einzelfall ab
+
+KfW-Nachweis erforderliche Unterlagen:
+- **Bauzeichnungen** (Grundrisse, Schnitte, Ansichten)
+- **Baubeschreibung** mit allen geplanten Sanierungsmaßnahmen
+- **U-Wert-Nachweise** für alle Bauteile (Außenwände, Dach, Fenster, Bodenplatte)
+- **Festlegung der wärmeübertragenden Umfassungsfläche** (Hüllfläche A)
+- **Wärmebrückenkonzept** – Nachweis oder Pauschale nach GEG
+- **Lüftungskonzept** nach DIN 1946-6
+- **Luftdichtheitskonzept** – Planung und ggf. Blower-Door-Test
+- **Heizungskonzept** inkl. technischer Datenblätter der Anlagentechnik
+- **Energiebilanz nach GEG** – Primärenergiebedarf und Transmissionswärmeverlust
+- **Berechnung der Effizienzhaus-Stufe** (z.B. EH 55, EH 40)
+- Bei EE-Klasse: Nachweis von mind. 65% erneuerbaren Energien + Lüftungsanlage mit WRG
+- Bei NH-Klasse: QNG-Zertifizierung erforderlich
+- **Bestätigung in zwei Schritten**: BzA (vor Antragstellung) und BnS (nach Sanierung)`;
 
 app.post('/chat', async (req, res) => {
   try {
