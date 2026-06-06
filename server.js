@@ -70,7 +70,7 @@ KfW-Nachweis erforderliche Unterlagen:
 - **Baubeschreibung** mit allen geplanten Sanierungsmaßnahmen
 - **U-Wert-Nachweise** für alle Bauteile (Außenwände, Dach, Fenster, Bodenplatte)
 - **Festlegung der wärmeübertragenden Umfassungsfläche** (Hüllfläche A)
-- **Wärmebrückenkonzept** – Nachweis oder Pauschale nach GEG
+- **Wärmebrückenkonzept**: Detaillierte Berechnung aller Wärmebrücken erforderlich – der pauschale Ansatz nach GEG (0,10 W/m²K) ist bei KfW nicht zulässig; KfW setzt maximal einen Wärmebrückenzuschlag von 0,05 W/m²K voraus
 - **Lüftungskonzept** nach DIN 1946-6
 - **Luftdichtheitskonzept** – Planung und ggf. Blower-Door-Test
 - **Heizungskonzept** inkl. technischer Datenblätter der Anlagentechnik
