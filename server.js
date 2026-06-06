@@ -58,11 +58,10 @@ KfW-Effizienzhaus Förderung (BEG Wohngebäude – Sanierung, Tilgungszuschuss):
 Wichtige Bedingungen bei KfW-Förderung:
 - **EE-Klasse**: mind. 65% des Wärme- und Kälteenergiebedarfs durch erneuerbare Energien – Lüftungsanlage mit Wärmerückgewinnung ist obligatorisch (Ausnahme: EH Denkmal)
 - **NH-Klasse**: QNG-Zertifizierung erforderlich – Lüftungsanlage mit Wärmerückgewinnung ist obligatorisch
-- **WPB-Bonus**: +10% zusätzlicher Tilgungszuschuss – gilt nur für EH 40, EH 55, EH 70 – und ausschließlich in Kombination mit EE-Klasse oder NH-Klasse. Da WPB-Bonus immer EE- oder NH-Klasse voraussetzt, ist eine Lüftungsanlage mit Wärmerückgewinnung beim WPB-Bonus immer Pflicht
-- **WPB-Nachweis** – drei mögliche Wege:
+- **WPB-Bonus**: +10% zusätzlicher Tilgungszuschuss – gilt nur für EH 40, EH 55, EH 70 – ausschließlich in Kombination mit EE-Klasse oder NH-Klasse – da beide Klassen eine Lüftungsanlage mit Wärmerückgewinnung voraussetzen, ist diese beim WPB-Bonus immer Pflicht
+- **WPB-Nachweis** – zwei mögliche Wege:
  1. Gültiger Energieausweis Klasse H (Bedarfs- oder Verbrauchsausweis, beschreibt Zustand vor Sanierung)
- 2. Energieausweis vor 2014 (ohne Effizienzklasse): Endenergiebedarf ≥ 250 kWh/m²a
- 3. Baujahr bis 1957 UND mind. 75% der Außenwandfläche energetisch unsaniert
+ 2. Baujahr bis 1957 UND mind. 75% der Außenwandfläche energetisch unsaniert
 - EEE (Energie-Effizienz-Experte) ist für alle KfW-Förderungen zwingend erforderlich
 - Antragstellung muss VOR Maßnahmenbeginn erfolgen
 - Kreditvolumen und Tilgungszuschuss gelten je Wohneinheit
