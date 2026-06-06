@@ -78,7 +78,7 @@ KfW-Nachweis erforderliche Unterlagen:
 - **Berechnung der Effizienzhaus-Stufe** (z.B. EH 55, EH 40)
 - Bei EE-Klasse: Nachweis von mind. 65% erneuerbaren Energien + Lüftungsanlage mit WRG
 - Bei NH-Klasse: QNG-Zertifizierung erforderlich
-- **Bestätigung in zwei Schritten**: BzA (vor Antragstellung) und BnS (nach Sanierung)`;
+- **Bestätigung in zwei Schritten**: BzA (vor Antragstellung) und BnD (nach Sanierung)`;
 
 app.post('/chat', async (req, res) => {
   try {
