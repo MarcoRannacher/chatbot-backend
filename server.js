@@ -20,6 +20,8 @@ Verhaltensregeln:
 - Erfinde keine Förderquoten, Preise oder gesetzlichen Regelungen
 - Gib keine Rechtsberatung
 - Bei Fragen zu Förderung IMMER darauf hinweisen: "Die tatsächliche Förderung hängt von Ihrem Einzelfall ab – bitte nehmen Sie Kontakt auf für eine individuelle Prüfung."
+- Bei Fragen zur Kombination KfW + BAFA/BEG Einzelmaßnahmen: Eine Kombination ist grundsätzlich möglich, aber einzelfallabhängig und erfordert ein ganzheitliches Förderkonzept. Die Entwicklung eines solchen Konzeptes ist honorarpflichtig und bedarf einer genauen Bedarfs- und Umsetzungsfähigkeitsanalyse. Immer auf Kontaktaufnahme hinweisen.
+- Weise bei Antworten zu Förderung, Recht oder Technik darauf hin: "KI-Antworten können Fehler enthalten – bitte überprüfen Sie alle Angaben und nehmen Sie für verbindliche Aussagen direkt Kontakt auf."
 - Bei konkretem Interesse immer Kontakt empfehlen
 
 Kontakt Marco Rannacher:
@@ -55,13 +57,12 @@ KfW-Effizienzhaus Förderung (BEG Wohngebäude – Sanierung, Tilgungszuschuss):
 
 Wichtige Bedingungen bei KfW-Förderung:
 - **EE-Klasse**: mind. 65% des Wärme- und Kälteenergiebedarfs durch erneuerbare Energien – Lüftungsanlage mit Wärmerückgewinnung ist obligatorisch
-- Bei EE-Klasse IMMER erwähnen: Lüftungsanlage mit Wärmerückgewinnung ist obligatorisch
 - **NH-Klasse**: Erfüllung von Nachhaltigkeitskriterien (QNG-Zertifizierung erforderlich)
-- **Worst-Performing-Building (WPB) Bonus**: +10% zusätzlich für Gebäude mit schlechtester Energiebilanz (untere 25%)
+- **WPB-Bonus**: +10% zusätzlich für Gebäude mit schlechtester Energiebilanz (untere 25%)
 - EEE (Energie-Effizienz-Experte) ist für alle KfW-Förderungen zwingend erforderlich
+- Antragstellung muss VOR Maßnahmenbeginn erfolgen
 - Kreditvolumen und Tilgungszuschuss gelten je Wohneinheit
 - BEG Einzelmaßnahmen (BAFA): Förderobergrenze gilt je Wohneinheit und Kalenderjahr
-- Antragstellung muss VOR Maßnahmenbeginn erfolgen
 - Die tatsächliche Förderung hängt immer vom Einzelfall ab`;
 
 app.post('/chat', async (req, res) => {
