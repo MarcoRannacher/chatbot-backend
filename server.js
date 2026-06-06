@@ -56,9 +56,13 @@ KfW-Effizienzhaus Förderung (BEG Wohngebäude – Sanierung, Tilgungszuschuss):
 - **EH Denkmal NH-Klasse**: 10% von max. 150.000 € = bis zu 15.000 €
 
 Wichtige Bedingungen bei KfW-Förderung:
-- **EE-Klasse**: mind. 65% des Wärme- und Kälteenergiebedarfs durch erneuerbare Energien – Lüftungsanlage mit Wärmerückgewinnung ist obligatorisch
-- **NH-Klasse**: Erfüllung von Nachhaltigkeitskriterien (QNG-Zertifizierung erforderlich)
-- **WPB-Bonus**: +10% zusätzlich für Gebäude mit schlechtester Energiebilanz (untere 25%)
+- **EE-Klasse**: mind. 65% des Wärme- und Kälteenergiebedarfs durch erneuerbare Energien – Lüftungsanlage mit Wärmerückgewinnung ist obligatorisch (Ausnahme: EH Denkmal)
+- **NH-Klasse**: QNG-Zertifizierung erforderlich – Lüftungsanlage mit Wärmerückgewinnung ist obligatorisch
+- **WPB-Bonus**: +10% zusätzlicher Tilgungszuschuss – gilt nur für EH 40, EH 55, EH 70 – und ausschließlich in Kombination mit EE-Klasse oder NH-Klasse. Da WPB-Bonus immer EE- oder NH-Klasse voraussetzt, ist eine Lüftungsanlage mit Wärmerückgewinnung beim WPB-Bonus immer Pflicht
+- **WPB-Nachweis** – drei mögliche Wege:
+ 1. Gültiger Energieausweis Klasse H (Bedarfs- oder Verbrauchsausweis, beschreibt Zustand vor Sanierung)
+ 2. Energieausweis vor 2014 (ohne Effizienzklasse): Endenergiebedarf ≥ 250 kWh/m²a
+ 3. Baujahr bis 1957 UND mind. 75% der Außenwandfläche energetisch unsaniert
 - EEE (Energie-Effizienz-Experte) ist für alle KfW-Förderungen zwingend erforderlich
 - Antragstellung muss VOR Maßnahmenbeginn erfolgen
 - Kreditvolumen und Tilgungszuschuss gelten je Wohneinheit
@@ -78,29 +82,29 @@ KfW-Nachweis erforderliche Unterlagen:
 - **Berechnung der Effizienzhaus-Stufe** (z.B. EH 55, EH 40)
 - Bei EE-Klasse: Nachweis von mind. 65% erneuerbaren Energien + Lüftungsanlage mit WRG
 - Bei NH-Klasse: QNG-Zertifizierung erforderlich
-- **Bestätigung in zwei Schritten**: BzA (vor Antragstellung) und BnD (nach Sanierung)`;
+- **Bestätigung in zwei Schritten**: BzA (vor Antragstellung) und BnS (nach Sanierung)`;
 
 app.post('/chat', async (req, res) => {
-  try {
-    const response = await fetch('https://api.anthropic.com/v1/messages', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'x-api-key': process.env.ANTHROPIC_API_KEY,
-        'anthropic-version': '2023-06-01'
-      },
-      body: JSON.stringify({
-        model: 'claude-sonnet-4-5',
-        max_tokens: 1000,
-        system: SYSTEM_PROMPT,
-        messages: req.body.messages
-      })
-    });
-    const data = await response.json();
-    res.json(data);
-  } catch (err) {
-    res.status(500).json({ error: err.message });
-  }
+ try {
+   const response = await fetch('https://api.anthropic.com/v1/messages', {
+     method: 'POST',
+     headers: {
+       'Content-Type': 'application/json',
+       'x-api-key': process.env.ANTHROPIC_API_KEY,
+       'anthropic-version': '2023-06-01'
+     },
+     body: JSON.stringify({
+       model: 'claude-sonnet-4-5',
+       max_tokens: 1000,
+       system: SYSTEM_PROMPT,
+       messages: req.body.messages
+     })
+   });
+   const data = await response.json();
+   res.json(data);
+ } catch (err) {
+   res.status(500).json({ error: err.message });
+ }
 });
 
 app.listen(process.env.PORT || 3000);
