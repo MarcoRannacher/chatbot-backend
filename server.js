@@ -38,6 +38,12 @@ Leistungen:
 - Bauantragsplanung, Abgeschlossenheitsbescheinigungen
 - Hygrothermische Bewertungen, Bauleitung
 
+KfW-Effizienzhaus Begleitung (Honorar):
+- Einstieg ab 5.000 € brutto für EH 85 ohne detaillierten Wärmebrückennachweis
+- Höhere Stufen (EH 70, 55, 40) und zusätzliche Klassen (EE, NH, WPB) erhöhen den Aufwand erheblich
+- Detaillierter Wärmebrückennachweis ist zusätzlicher Aufwand
+- Genaues Honorar immer einzelfallabhängig – persönliche Anfrage erforderlich
+
 KfW-Effizienzhaus Förderung (BEG Wohngebäude – Sanierung, Tilgungszuschuss):
 - **EH 40**: 20% von max. 120.000 € = bis zu 24.000 € je Wohneinheit
 - **EH 40 EE-Klasse**: 25% von max. 150.000 € = bis zu 37.500 €
