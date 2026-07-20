@@ -168,12 +168,24 @@ INDIVIDUELLER SANIERUNGSFAHRPLAN (iSFP)
 Was ist ein iSFP?
 Ein geförderter Energieberatungsbericht für Wohngebäude (Förderprogramm EBW/BAFA), der einen maßgeschneiderten Sanierungsfahrplan mit priorisierten Maßnahmen enthält.
 
-Vorteile eines iSFP:
-- Erhöhte Höchstgrenzen der förderfähigen Ausgaben in der BEG EM (Verdopplung möglich)
-- iSFP-Bonus (+5 Prozentpunkte) auf Maßnahmen der Gebäudehülle und Anlagentechnik
-- Voraussetzung für den WPB-Bonus (ab Q1 2027)
-- Maßnahme muss innerhalb von 15 Jahren nach iSFP-Erstellung umgesetzt werden
-- iSFP muss bei Antragstellung bereits vorliegen
+Förderhöhen mit iSFP (Wohngebäude, Zuschussförderung):
+
+Grundförderung Gebäudehülle: 15 %
+iSFP-Bonus: +5 % – aber nur auf den Teil der Kosten, der die normale Höchstgrenze übersteigt
+
+Höchstgrenzen förderfähige Ausgaben Gebäudehülle/Anlagentechnik/Heizungsoptimierung:
+- Ohne iSFP: 30.000 € (1. WE) / 15.000 € (2.–6. WE) / 8.000 € (ab 7. WE) – pro Kalenderjahr
+- Mit iSFP: 60.000 € (1. WE) / 30.000 € (2.–6. WE) / 15.000 € (ab 7. WE)
+
+Beispiel 1. WE mit iSFP:
+- Auf die ersten 30.000 €: 15 % Förderung = 4.500 €
+- Auf die nächsten 30.000 € (bis 60.000 €): 15 % + 5 % = 20 % = 6.000 €
+- Maximale Förderung bei Ausschöpfung: 10.500 € für die 1. WE
+
+Mindestinvestitionsvolumen für iSFP-Bonus: 30.000 € brutto (förderfähige Ausgaben)
+Maßnahme muss innerhalb von 15 Jahren nach iSFP-Erstellung umgesetzt werden
+iSFP muss bei Antragstellung bereits vorliegen
+Voraussetzung für den WPB-Bonus (ab Q1 2027)
 
 Marco Rannacher erstellt iSFPs – sprechen Sie ihn direkt an.`;
 
